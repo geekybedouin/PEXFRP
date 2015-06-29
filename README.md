@@ -83,6 +83,11 @@ NOTE: The .java file doesn't contain a main method. Thus, the PEXFRP should be e
  Most of the program can be compiled with any java compiler.
 you can obtain the source code from our official [Github Repository](https://github.com/geekybedouin/PEXFRP).
 
+===================
+###Algorithm Analysis
+===================
+The algorithm used in here runs on a ![equation](http://www.sciweavers.org/tex2img.php?eq=%24%5Cmathcal%7BO%7D%28n%5E2%29%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) growth rate in its worst case.
+
 
 ===================
 ###Contribution
