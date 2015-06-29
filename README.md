@@ -47,7 +47,7 @@ NOTE: The .java file doesn't contain a main method. Thus, the PEXFRP should be e
 ====================
 - **Compile from source:**  
 	   
-	   $javac -g /absPathto/PEXFRP.java
+		 $ javac -g /absPathto/PEXFRP.java
 	  
    
 	. **Build the dll:** You can build the dlls by using [**IKVM**](http://www.ikvm.net/).
