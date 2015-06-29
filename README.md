@@ -42,6 +42,21 @@ A "Top Down Recursive Descent Parser" developed to be integrated into "IFSAH" e-
 NOTE: The .java file doesn't contain a main method. Thus, the PEXFRP should be either dynamiclly linked as a .dll or merged as a .jar file
 **Provided with the code**: a 32bit dll and a jar file in the dist folder.
 
+====================
+###Building from Source
+====================
+- **Compile from source:**  
+	   ```
+	   $javac -g /absPathto/PEXFRP.java
+	   ```
+   
+		. **Build the dll:** You can build the dlls by using [**IKVM**](http://www.ikvm.net/).
+	   
+			   ```
+			   $ ikvmc -out:pexfrp.dll 
+			   ```
+	 	. **Or/ Use the generated .jar file**
+
 
 ====================
 ###How to Use
