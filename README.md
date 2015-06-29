@@ -47,15 +47,15 @@ NOTE: The .java file doesn't contain a main method. Thus, the PEXFRP should be e
 ###How to Use
 ====================
 . In C#: 
-  - Add the dll to project's refrences.
-  - Use the code below:
+   - Add the dll to project's refrences.
+   - Use the code below:<br>
    ```
 	com.pex.frp.PEXFRP mx = new com.pex.PEXFRP();
 	mx.parseFile(AbsPathtoInput, AbsPathtoOutput);
-    ```
+    ```<br>
 . In Java: 
-  - Add the jar to project's lib folder
-  - Use the code below:
+   - Add the jar to project's lib folder
+   - Use the code below:
   ```
 	PEXFRP mx = new com.pex.PEXFRP();
 	mx.parseFile(AbsPathtoInput, AbsPathtoOutput);
